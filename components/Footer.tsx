@@ -34,7 +34,7 @@ export const FooterImpl: React.FC = () => {
   }, [])
 
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} style={{display:"none"}}>
       <div className={styles.copyright}>Copyright 2022 {config.author}</div>
 
       <div className={styles.settings}>
